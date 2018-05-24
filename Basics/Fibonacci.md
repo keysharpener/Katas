@@ -1,4 +1,4 @@
-# The Fibonacci sequence
+# The [Fibonacci](https://en.wikipedia.org/wiki/Fibonacci_number) sequence
 
 ### Code an algorithm returning the first n numbers of the fibonacci sequence
 
@@ -8,4 +8,10 @@ Your goal is to code a method with an n parameter, returning a given number of t
 
 ```csharp
 IEnumerable<int> GetFibonacciSequence(int numberOfTerms) {...}
+```
+
+For example : 
+```csharp
+var result = GetFibonacciSequence(7);
+result == [1, 1, 2, 3, 5, 8, 13];
 ```
