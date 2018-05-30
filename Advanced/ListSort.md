@@ -5,6 +5,6 @@ Without using Linq, write a function that returns an ordered enumerable of integ
 Example :
 ```csharp
 IEnumerable<int> unordered = new List<int>{1,5,2,10}();
-IEnumerable<int> ordered = Sort();
+IEnumerable<int> ordered = Sort(unordered);
 ordered == [1,2,5,10]
 ```
