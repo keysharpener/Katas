@@ -15,3 +15,5 @@ var availableItems = new List<string>{"Stick", "Stick", "Stick", "Stick", "Rock"
 var craftableItems = GetCraftableItems(availableItems);
 craftableItems == ["Spear", "Axe", "Arrow"];
 ```
+
+Hint: Use the [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern) design pattern
